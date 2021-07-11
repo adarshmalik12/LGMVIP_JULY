@@ -1,0 +1,423 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.background
+{
+    /* height: 50vh; */
+    width: 100%;
+    /* opacity: 0.4; */
+    position: relative;
+}
+.image-content
+{
+    position: absolute;
+    top: 10px;
+    left: 25%;
+}
+.mainHeading
+{
+    display: inline-block;
+    font-size: 2.5rem;
+    color: white;
+    margin-right: 15%;
+}
+.navDiv
+{
+    display: inline-block;
+}
+.navList
+{
+    list-style-type: none;
+    display: flex;
+}
+.navList li
+{
+    margin: 0% 15%;
+}
+@media only screen and (max-width: 1370px)
+{
+    .navList li
+    {
+        margin: 0% 10%;
+    }
+}
+@media only screen and (max-width: 1136px)
+{
+    .mainHeading
+    {
+        font-size: 2rem;
+        margin-right: 10%;
+    }
+    .navList li
+    {
+        margin: 0% 5%;
+    }
+    .imageContentText
+    {
+    font-size: 2rem !important;
+    margin-top: 4rem;
+    }
+    .imageContentSmallText
+    {
+    font-size: 1.1rem !important;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: .4rem 0.8rem !important;
+        font-size: 1rem !important;
+    }
+}
+@media only screen and (max-width: 800px)
+{
+    .mainHeading
+    {
+        font-size: 1.5rem;
+        margin-right: 8%;
+    }
+    .navList li
+    {
+        margin: 0% 3%;
+    }
+    .imageContentText
+    {
+    font-size: 1.5rem !important;
+    margin-top: 3rem !important;
+    }
+    .imageContentSmallText
+    {
+    font-size: 1rem !important;
+    }
+    .zippyText
+    {
+        font-size: 0.8rem !important;
+    }
+    .fa-7x
+    {
+        font-size: 5em !important;
+    }
+}
+@media only screen and (max-width: 674px)
+{
+    .mainHeading{
+        font-size: 1rem;
+        margin-right: 6%;
+    }
+    .image-content
+    {
+        left: 20%;
+    }
+    .imageContentText
+    {
+    font-size: 1rem !important;
+    margin-top: 2.5rem !important;
+    }
+    .imageContentSmallText
+    {
+    font-size: 0.8rem !important;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: .3rem 0.6rem !important;
+        font-size: 0.8rem !important;
+    }
+    .zippyText
+    {
+        font-size: 0.6rem !important;
+    }
+}
+@media only screen and (max-width: 590px)
+{
+    .mainHeading{
+        font-size: 1rem;
+        margin-right: 4%;
+    }
+    .image-content
+    {
+        left: 10%;
+    }
+    .imageContentText
+    {
+    font-size: 1rem !important;
+    margin-top: 2rem !important;
+    }
+    .imageContentSmallText
+    {
+    font-size: 0.8rem !important;
+    }
+}
+@media only screen and (max-width: 516px)
+{
+    .mainHeading{
+        font-size: 0.8rem;
+        margin-right: 4%;
+    }
+    .image-content
+    {
+        left: 8%;
+    }
+    .navList a
+    {
+        font-size: 0.8rem;
+    }
+    .imageContentText
+    {
+    font-size: 0.8rem !important;
+    margin-top: 1.5rem !important;
+    }
+    .imageContentSmallText
+    {
+    font-size: 0.6rem !important;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: .2rem 0.4rem !important;
+        font-size: 0.6rem !important;
+    }
+    .signup-content
+    {
+        left: 20% !important;
+        font-size: 20px !important;
+    }
+    .zippyText
+    {
+        font-size: 0.4rem !important;
+    }
+    .fa-7x
+    {
+        font-size: 3em !important;
+    }
+}
+@media only screen and (max-width: 412px)
+{
+    .mainHeading{
+        font-size: 0.6rem;
+        margin-right: 4%;
+    }
+    .image-content
+    {
+        left: 8%;
+    }
+    .navList a
+    {
+        font-size: 0.6rem;
+    }
+    .imageContentText
+    {
+    font-size: 0.6rem !important;
+    margin-top: 1rem !important;
+    }
+    .imageContentSmallText
+    {
+    font-size: 0.4rem !important;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: .1rem 0.2rem !important;
+        font-size: 0.4rem !important;
+        border-radius: .1rem;
+    }
+    .signup-content
+    {
+        left: 5% !important;
+        font-size: 10px !important;
+    }
+}
+.navList a
+{
+    text-decoration: none;
+     color: white;
+}
+.imageContentText
+{
+    color: white;
+    font-size: 3rem;
+    width: 60%;
+    margin-top: 6rem;
+}
+.imageContentSmallText
+{
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+}
+.custombtn
+{
+    background-color: purple !important;
+}
+.custombtn:hover
+{
+    color: black !important;
+    background-color: gold !important;
+}
+.zippyText
+{
+    width: 55%;
+    font-size: 1rem;
+    display: inline-block;
+}
+.customcontainer
+{
+    margin: 0% 25%;
+    /* position: relative; */
+}
+.fontAwesomeDiv
+{
+    display: inline-block;
+    /* position: absolute; */
+    width: 40%;
+    /* vertical-align: top; */
+}
+.icondiv
+{
+    display:inline-block;
+    border-radius: 50%;
+    width: 40%;
+    height: 20%;
+    background-color: purple;
+}
+.iconcustom
+{
+    color: white;
+}
+.horizontal
+{
+    display: inline-block;
+    width: 50%;
+    /* text-align: center; */
+}
+.img-wrapper {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.img-wrapper img {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.customProjectText
+{
+    text-align: left;
+    padding-left: 10%;
+}
+.custombtnProject
+{
+    color: black !important;
+    background: white !important;
+}
+.customProjectColumn
+{
+    background-color: lightgrey;
+}
+.customProjectColumn1
+{
+    background-color: darkgray;
+}
+.custombtnProject:hover
+{
+    background-color: purple !important;
+    color: white !important;
+}
+.customProjectColumn:hover,.customProjectColumn1:hover
+{
+    background-color: gold !important;
+}
+.customcontainerPricing
+{
+    margin: 0% 30%;
+}
+.customColumnPricing
+{   
+    border-right: 1px solid black;
+}
+@media only screen and (max-width: 992px)
+{
+    .customcontainerPricing
+    {
+        margin: 0% 20%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .customColumnPricing
+    {
+        border-right: none;
+    }
+}
+.customcontainerZippyTeam
+{
+    margin: 0% 30%;
+}
+.customdivZippyTeam
+{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.customimgZippyTeam
+{
+    border-radius: 50%;
+}
+.customdivLifeInZippy
+{
+    margin: 0% 30%;
+}
+.customcontainerBlog
+{
+    margin: 0% 30%;
+}
+.customdivBlog
+{
+    width: 100%;
+    /* height: 100%; */
+}
+.customdivSignup
+{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.customimgnewsletter
+{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.signup-content
+{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.mapimg
+{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    /* object-position: center center; */
+}
+.customdivmap
+{
+    width: 100%;
+    height: 550px;
+}
+/* Footer Section */
+#footer_section{
+    padding: 5% 0;
+}
+.footer_section_data{
+  
+      padding: 0 25%;
+      padding-top: 3%;
+}
+  
+i{
+    padding:2% 5%;
+}
+  
+.footer_headings{
+    font-size: 12px;
+    font-weight: 900 !important;
+}  
